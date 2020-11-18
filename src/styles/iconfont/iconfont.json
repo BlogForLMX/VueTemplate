@@ -1,0 +1,30 @@
+{
+  "id": "2209550",
+  "name": "Vue Template",
+  "font_family": "iconfont",
+  "css_prefix_text": "v-t-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16731734",
+      "name": "setting",
+      "font_class": "xingzhuang",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "17592712",
+      "name": "User Settings",
+      "font_class": "UserSettings",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11360048",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
