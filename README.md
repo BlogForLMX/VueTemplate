@@ -1,5 +1,19 @@
 # Vue 轻量级后台管理系统模板框架
 
+
+
+### 项目预览
+
+#### 登陆页面
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201118100324806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI2OTQxMTcz,size_16,color_FFFFFF,t_70#pic_center)
+
+#### 系统界面
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020111810034579.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI2OTQxMTcz,size_16,color_FFFFFF,t_70#pic_center)
+
+#### 404页面
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201118100409845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI2OTQxMTcz,size_16,color_FFFFFF,t_70#pic_center)
+
 ### 安装项目依赖
 ```
 npm install
