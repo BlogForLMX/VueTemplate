@@ -16,10 +16,6 @@ import './icons' // icon
 
 import './permission'
 
-import ViewUI from 'view-design';
-import 'view-design/dist/styles/iview.css';
-Vue.use(ViewUI);
-
 
 // 此处并没有按需引入Element UI, 对打包体积会有影响，
 // 如需按需加载，请参考（https://element.eleme.cn/#/zh-CN/component/quickstart）
