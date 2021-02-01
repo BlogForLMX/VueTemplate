@@ -3,7 +3,6 @@ import store from '../store'
 
 // 将菜单信息转成对应的路由信息 动态添加
 export default function createRoutes(permisssionCodes) {
-
   // 进行菜单过滤
   const accessedRoutes = filterAsyncRoutes(asyncRoutes, permisssionCodes)
   // 进行权限路由的缓存操作
@@ -13,7 +12,6 @@ export default function createRoutes(permisssionCodes) {
 
   return accessedRoutes
 }
-
 
 /**
  * 递归过滤异步路由表， 返回符合用户角色权限的路由表

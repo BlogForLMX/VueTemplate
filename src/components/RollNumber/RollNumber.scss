@@ -1,0 +1,58 @@
+.roll-number-box {
+    width: auto;
+    height: 75px;
+    display: inline-block;
+
+    .roll-number-item {
+        position: relative;
+        display: inline-block;
+        width: 54px;
+        height: 66px;
+        /* 背景图片 */
+        background: url('~@assets/imgs/roll_number_bg.png') no-repeat center;
+        background-size: 54px 66px;
+        box-shadow: 0px 2px 0px 0px rgba(0, 237, 253, 0.35);
+        border-radius: 5px;
+        font-size: 56px;
+        line-height: 66px;
+        text-align: center;
+        color: #FFFFFF;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        overflow: hidden;
+        margin-left: 10px;
+
+        span {
+            position: absolute;
+            top: 4px;
+            left: 50%;
+            transform: translate(-50%);
+            letter-spacing: 10px;
+            transition: transform 1.5s ease-out;
+        }
+    }
+
+    .roll-number-unit {
+        position: relative;
+        display: inline-block;
+        width: 54px;
+        height: 66px;
+        /* 背景图片 */
+        background: url('~@assets/imgs/roll_number_bg.png') no-repeat center;
+        background-size: 54px 66px;
+        box-shadow: 0px 2px 0px 0px rgba(0, 237, 253, 0.35);
+        border-radius: 5px;
+        font-size: 42px;
+        line-height: 66px;
+        text-align: center;
+        color: #FFFFFF;
+        overflow: hidden;
+        margin-left: 10px;
+
+        span {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+}

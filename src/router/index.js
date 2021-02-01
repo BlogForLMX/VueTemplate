@@ -41,7 +41,7 @@ export const asyncRoutes = [
     children: [{
       path: 'index',
       component: () => import('@/views/dashboard/index.vue'),
-      name: 'dashboard',
+      name: 'Dashboard',
       meta: {
         title: i18n.t('route.dashboard'),
         icon: 'home',
