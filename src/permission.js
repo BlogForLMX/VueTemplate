@@ -13,7 +13,7 @@ NProgress.configure({
 // 是否有菜单数据
 let hasMenus = false
 
-router.beforeEach(async (to, from, next) => {
+router.beforeEach(async(to, from, next) => {
   // 设置页面标题
   document.title = getDocumentTitle(to.meta.title)
   // 开启加载动画

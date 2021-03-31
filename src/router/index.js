@@ -69,10 +69,10 @@ export const asyncRoutes = [
           icon: 'UserSettings',
           needPermission: ['web_userInfo']
         },
-        component: () => import('@/views/demo/index.vue'),
+        component: () => import('@/views/demo/index.vue')
       }
     ]
-  },
+  }
 ]
 
 const createRouter = () => new Router({

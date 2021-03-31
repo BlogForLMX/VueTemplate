@@ -21,7 +21,6 @@ import Header from './components/Header'
 import SiderBar from './components/SiderBar'
 import Footer from './components/Footer'
 
-
 export default {
   name: 'Layout',
   components: { SiderBar, Header, Footer },
